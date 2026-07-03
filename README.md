@@ -1,13 +1,14 @@
 # road-to-ai
-Willkommen auf meinem Lern-Weg
-## Über dieses Respository
-Dieses Repository dokumentiert meinen Lernweg mit Python als Vorbereitung auf meine Umschulung.
-Mein langfristiges Ziel ist es, Kenntnisse in den Bereichen Machine Learning (ML), Natural Language Processing (NPL) und AI Safety aufzubauen.
-## Mein Plan
-- Python lernen
-- Git und Github sicher anwenden
-- Kleine Projekte entwickeln
-- Meine Fortschritte dokumentieren
-- Schritt für Schritt ein Portfolio aufbauen#
+Welcome to my learning journey
+## About this repository
+This repository documents my learning journey with Python in preparation for my retraining.
+My long-term goal is to build expertise in the fields of Machine Learning (ML), Natural Language Processing (NLP), and AI safety.
+## My plan
+- Learn Python
+- Using Git and GitHub securely
+- Develop small projects
+- Documenting my progress
+- Building a portfolio step by step
 ## Start
-Tag 0 - Entwecklungsumgebung eingerichtet
+Day 0 - Development environment set up
+Day 1 - 
