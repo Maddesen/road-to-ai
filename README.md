@@ -10,4 +10,7 @@ My long-term goal is to build expertise in the fields of Machine Learning (ML), 
 - Documenting my progress
 - Building a portfolio step by step
 ## Start
-Day 0 - Development environment set up  Day 1 - Initial Tasks
+
+- Day 0 - Development environment set up  
+
+- Day 1 - Initial Tasks
