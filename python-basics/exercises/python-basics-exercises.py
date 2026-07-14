@@ -23,3 +23,27 @@ if x >= y:
     print("x ist größer oder gleich y")
 else:
     print("x ist kleiner als y")
+
+# if-else-quere with or/and
+
+# variables
+
+x = 15
+y = 5
+z = 9
+
+if x >= y and x >= z:
+    print("x ist größter oder gleich y und z")
+
+if y < x or y > z:
+    print("y ist kleiner als x oder größer als z")
+
+# Loops
+
+for x in range(1, 11):
+    print("x=", x)
+
+y = 10
+while y > 0:
+    print(" y is:", y)
+    y -= 1    
