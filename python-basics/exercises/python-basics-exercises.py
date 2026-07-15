@@ -47,3 +47,8 @@ y = 10
 while y > 0:
     print(" y is:", y)
     y -= 1    
+
+film = input("Bitte geben Sie Ihren Lieblingsfilm ein:")
+zahl = input("Bitte geben Sie Ihre Lieblingszahl ein:")
+zahl = float(zahl)
+print("Ihr Lieblingsfilm ist", film, "und Ihre Lieblingszahl plus 14,5 addiert ist", (zahl + 14.5))
