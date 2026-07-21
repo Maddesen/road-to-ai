@@ -16,14 +16,28 @@
 #      um eine Division durch Null zu vermeiden.
 
 # 4. Geben Sie das Ergebnis der Berechnung aus.
+import argparse
 
 parser = argparse.ArgumentParser(description="Ein einfacher Taschenrechner")
 parser.add_argument("zahl1", help="Zahl 1 (ganzzahlig)", type=int)
-parser.add_argument("Zahl 2", help="Zahl 2 (ganzzahlig)", type=int)
+parser.add_argument("zahl2", help="Zahl 2 (ganzzahlig)", type=int)
 parser.add_argument("--operater", help="Operator, wird keiner gewählt gilt +", default="+")
+eingabe = parser.parse_args()
 
-print("Zahl 1:", args.zahl1)
-print("Zahl 2:", args.zahl2)
-print("Operator:", --operator)
+if eingabe.operater == "+":
+    print("Ergebnis:", (eingabe.zahl1 + eingabe.zahl2))
+elif eingabe.operater == "-":
+    print("Ergebnis:", (eingabe.zahl1 - eingabe.zahl2))
+elif eingabe.operater == "*":
+    print("Ergebnis:", (eingabe.zahl1 * eingabe.zahl2))
+elif eingabe.operater == "/" and eingabe.zahl2 == 0:
+    print("Eine Division durch 0 ist nicht möglich")
+elif eingabe.operater == "/":
+    print("Ergenis:", (eingabe.zahl1 / eingabe.zahl2))
+else:
+    print("Ergebnis:", (eingabe.zahl1 + eingabe.zahl2))
+
+
+
 
 
