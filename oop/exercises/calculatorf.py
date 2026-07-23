@@ -1,8 +1,6 @@
 # Taschenrechner mit funktionen  und kommentaren
 
 # funtionen 
-
-
 def Abfrage1():
     """
     wiederholte abfrage der Zahl
@@ -17,9 +15,6 @@ def Abfrage1():
     
     return zahl1
       
-
-
-
 def Abfrage2():
     while True:
         try:
@@ -31,13 +26,13 @@ def Abfrage2():
     return zahl2
       
 
-
+# definitionen variablen
 zahl1 = Abfrage1()   # funtkion wird gestartet und die zahl gespeichert
 zahl2 = Abfrage2()
 
 oper = input("Wie soll gerechnet werden? Bitte geben sie + - * oder / ein:") # oper muss weiter definiert werden um eine funktion zu starten
 
-
+# rechen funktionen
 def adition(zahl1: float, zahl2: float) -> float:
     """
     adiitions funtkion
@@ -64,7 +59,7 @@ def divi(zahl1:float, zahl2:float) ->float:
     """
     return zahl1 / zahl2
 # Summe darf hier nicht als variable gespeichert werden
-# da sie sonst städnig überschrieben und damit nicht korrekt weiter genutzt wird
+# da sie sonst ständig überschrieben und damit nicht korrekt weiter genutzt wird
 
 if oper == "+":
     summe = adition(zahl1, zahl2)

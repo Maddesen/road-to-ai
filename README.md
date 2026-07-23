@@ -1,4 +1,4 @@
-# road-to-ai
+# First Steps
 Welcome to my learning journey
 ## About this repository
 This repository documents my learning journey with Python in preparation for my retraining.
@@ -10,6 +10,6 @@ My long-term goal is to build expertise in the fields of Machine Learning (ML), 
 - Documenting my progress
 - Building a portfolio step by step
 ## Start
-- Day 0 - Development environment set up  
-- Day 1 - Phyton Basics
-- Day 2 - 
+- Step 0 - Development environment set up  
+- Step 1 - Phyton Basics
+- Step 2 - Calculator with functions
